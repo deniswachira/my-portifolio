@@ -1,11 +1,13 @@
 import React from "react";
-import Services from "./Services";
+import kyu_logo2 from '../assets/icons/kyu_logo2.png';
+import alx from '../assets/icons/alx.png';
+import aberdare from '../assets/icons/aberdare.jpg';
 
 const About = () => {
   const education = [
-    { id: 1, name: 'Computer Science', description: 'at Kirinyaga University graduating in October 2025', image: '../src/assets/icons/kyu_logo2.png' },
-    { id: 2, name: 'Software Engineering', description: 'Peer-to peer software engineering bootcamp Graduate August 2023', image: '../src/assets/icons/alx.png' },
-    { id: 3, name: 'Aberdare Insitute of Catering', description: 'Diploma in Food Production graduated in December 2021', image: '../src/assets/icons/aberdare.jpg' },
+    { id: 1, name: 'Computer Science', description: 'at Kirinyaga University graduating in October 2025', image: kyu_logo2 },
+    { id: 2, name: 'Software Engineering', description: 'Peer-to peer software engineering bootcamp Graduate August 2023', image: alx },
+    { id: 3, name: 'Aberdare Insitute of Catering', description: 'Diploma in Food Production graduated in December 2021', image: aberdare },
   ]
   return (
     <div className="md:px-10 px-7 sm:-mt-10" id="about">

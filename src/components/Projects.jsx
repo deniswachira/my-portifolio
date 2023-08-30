@@ -1,4 +1,9 @@
 import React from "react";
+import udhamini from '../assets/projects/udhamini.svg';
+import covid from '../assets/projects/covid19tracker.png';
+import modern from '../assets/projects/modern-real-estate.png';
+import fitness from '../assets/projects/fitness.png';
+import showcase from '../assets/projects/showcase.png';
 
 const Projects = () => {
   const projects = [
@@ -6,7 +11,7 @@ const Projects = () => {
       title: "Udhamini Scholarships Web App",
       description:
         "Udhamini is a platform that lets all students get access to a centralized repository of scholarships and apply for them.",
-      photo: "/src/assets/projects/udhamini.PNG",
+      photo: udhamini,
       link: "https://udhaminischolarships-cae2exbygfafa7fm.z01.azurefd.net/pages/404.html?shown=true",
       github: "https://github.com/udhaminiProject",
     },
@@ -14,7 +19,7 @@ const Projects = () => {
       title: "COVID-19-TRACKER",
       description:
         "The COVID Tracking Project collects and publishes number of worldwide cases, number of death cases and number of recovered cases. ",
-      photo: "/src/assets/projects/covid19tracker.png",
+      photo: covid,
       link: "https://covid-19-tracker-75e50.web.app/",
       github: "https://github.com/deniswachira",
     },
@@ -22,7 +27,7 @@ const Projects = () => {
       title: "Modern-Real-Estate",
       description:
         "Its is a modern real estate web app that helps buyers to search available houses for renting or buying.I developed using Nextjs with rapid APIs.",
-      photo: "/src/assets/projects/modern-real-estate.png",
+      photo: modern,
       link: "https://modern-real-estate-app-five.vercel.app/",
       github: "https://github.com/deniswachira",
     },
@@ -30,7 +35,7 @@ const Projects = () => {
       title: "Fit Club Frontend UI",
       description:
         "A simple fitclub. I designed using ReactJS. The web app is fully responsive and custom animation.",
-      photo: "/src/assets/projects/fitness.png",
+      photo: fitness,
       link: "https://fit-club-three.vercel.app/",
       github: "https://github.com/deniswachira",
     },
@@ -38,7 +43,7 @@ const Projects = () => {
       title: "NFTs Landing Page",
       description:
         "A Landing Page for NFT marketplace for android app . Built with ReactJs fully responsive.",
-      photo: "/src/assets/projects/showcase.png",
+      photo: showcase,
       link: "https://nfts-marketplace-showcase.vercel.app/",
       github: "https://github.com/deniswachira",
     },
