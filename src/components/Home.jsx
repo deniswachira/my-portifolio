@@ -1,6 +1,4 @@
 import React from 'react';
-import Img from '../assets/Willie.png'
-import circle from '../assets/circle.png'
 import img2 from '../assets/img.png'
 
 const Home = () => {

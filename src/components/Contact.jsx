@@ -11,11 +11,12 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_nt4yi8l', 'template_4qwtpkm', formRef.current, 'NWuZWqUX3JfozkOPW')
+    emailjs.sendForm('service_y0y9g4m', 'template_8xmhbuk', formRef.current, 'NWuZWqUX3JfozkOPW')
       // e.target.reset()
       .then((result) => {
         console.log(result.text);
         setDone(true);
+        formRef.current.reset();
       }, (error) => {
         console.log(error.text);
       });
@@ -57,7 +58,7 @@ const Contact = () => {
             <textarea name="message" id="message" cols="54" rows="4" className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded mb-2 required" placeholder="Message:"></textarea>
             <button className="btn transition-all duration-500 bg-primary py-2 px-12 rounded text-white hover:bg-white hover:text-primary block">
               Send
-              {done && <p>Thank you for your message! will get in touch soon</p>}
+              {done && <p>Thank you for your message! I will get in touch soon</p>}
             </button>
           </form>
         </div>
