@@ -4,6 +4,7 @@ import covid from '../assets/projects/covid19tracker.png';
 import modern from '../assets/projects/modern-real-estate.png';
 import fitness from '../assets/projects/fitness.png';
 import showcase from '../assets/projects/showcase.png';
+import influenza from '../assets/projects/influenza.png';
 
 const Projects = () => {
   const projects = [
@@ -38,6 +39,14 @@ const Projects = () => {
       photo: fitness,
       link: "https://fit-club-three.vercel.app/",
       github: "https://github.com/deniswachira",
+    },
+    {
+      title: "Influenza and Covid-19 Connector",
+      description:
+        "It provides real-time disease-related statistics accumulated worldwide.",
+      photo: influenza,
+      link: "https://learn.microsoft.com/en-us/connectors/influenzandcovid19ip/",
+      github: "https://learn.microsoft.com/en-us/connectors/influenzandcovid19ip/",
     },
     {
       title: "NFTs Landing Page",
