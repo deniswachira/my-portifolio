@@ -5,6 +5,7 @@ import modern from '../assets/projects/modern-real-estate.png';
 import fitness from '../assets/projects/fitness.png';
 import showcase from '../assets/projects/showcase.png';
 import influenza from '../assets/projects/influenza.png';
+import jobit1 from '../assets/projects/jobit1.jpg';
 
 const Projects = () => {
   const projects = [
@@ -49,6 +50,14 @@ const Projects = () => {
       github: "https://learn.microsoft.com/en-us/connectors/influenzandcovid19ip/",
     },
     {
+      title: "Jobit Mobile App",
+      description:
+        "A Job Searching mobile App. Built with React Native and Rapid APIs.",
+      photo: jobit1,
+      link: "https://github.com/deniswachira/Jobit",
+      github: "https://github.com/deniswachira/Jobit",
+    },
+    {
       title: "NFTs Landing Page",
       description:
         "A Landing Page for NFT marketplace for android app . Built with ReactJs fully responsive.",
@@ -74,6 +83,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="mb-4"
+
               >
                 <img src={project.photo} alt={project.title} />
               </a>
