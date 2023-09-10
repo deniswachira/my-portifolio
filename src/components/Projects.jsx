@@ -1,5 +1,5 @@
 import React from "react";
-import udhamini from '../assets/projects/udhamini.svg';
+import udhamini from '../assets/projects/udhamini1.png';
 import covid from '../assets/projects/covid19tracker.png';
 import modern from '../assets/projects/modern-real-estate.png';
 import fitness from '../assets/projects/fitness.png';
@@ -22,8 +22,8 @@ const Projects = () => {
       description:
         "The COVID Tracking Project collects and publishes number of worldwide cases, number of death cases and number of recovered cases. ",
       photo: covid,
-      link: "https://covid-19-tracker-75e50.web.app/",
-      github: "https://github.com/deniswachira",
+      link: "https://scholarship-management-app-alx.vercel.app/",
+      github: "https://github.com/udhaminiProject",
     },
     {
       title: "Modern-Real-Estate",
