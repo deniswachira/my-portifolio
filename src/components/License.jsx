@@ -39,38 +39,6 @@ const License = () => {
           </div>)
         }
       </div>
-
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center"> */}
-      {/* {projects.map((project, index) => {
-          return (
-            <div
-              key={index}
-              className="flex flex-col shadow-sm md:w-[343px] bg-[#31313F] p-4 rounded"
-            >
-              <a
-                href={project.photo}
-                target="_blank"
-                rel="noreferrer"
-                className="mb-4"
-              >
-                <img src={project.photo} alt={project.title} />
-              </a>
-              <h3 className="text-primary font-semibold text-lg">
-                {project.title}
-              </h3>
-              <p className=" text-white mt-1">{project.description}</p>
-              <div className="mt-5">
-                <button className="btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary">
-                  <a href={project.link}>Live Link</a>
-                </button>
-                <button className="btn outline py-1.5 px-9 rounded border-none ml-5 text-white ">
-                  <a href={project.github}>GitHub</a>
-                </button>
-              </div>
-            </div>
-          );
-        })} */}
-      {/* </div> */}
     </div>
   );
 };

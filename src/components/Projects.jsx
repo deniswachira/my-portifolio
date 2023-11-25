@@ -23,7 +23,7 @@ const Projects = () => {
         "The COVID Tracking Project collects and publishes number of worldwide cases, number of death cases and number of recovered cases. ",
       photo: covid,
       link: "https://covid-19-tracker-75e50.web.app/",
-      github: "https://github.com/deniswachira",
+      github: "https://github.com/deniswachira/COVID-19-TRACKER",
     },
     {
       title: "Modern-Real-Estate",
