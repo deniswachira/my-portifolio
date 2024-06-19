@@ -1,12 +1,13 @@
 import React from "react";
-import LevelBeta from '../assets/license/LevelBeta.png';
+import gold from '../assets/license/gold-mls.png';
 import csk from '../assets/license/csk.png';
 import kahawa from '../assets/license/kahawa.png';
 
 
+
 const Community = () => {
   const education = [
-    { id: 1, name: 'Beta Microsoft Learn Student Ambassador', description: 'A MLSA is a student leader who is passionate about technology and helps others to learn and engage with Microsoft technologies.', link: 'https://mvp.microsoft.com/en-US/studentambassadors/profile/cbb2c34d-09ac-4c4a-a0f2-8c32010b62dd', image: LevelBeta },
+    { id: 1, name: 'Gold Microsoft Learn Student Ambassador', description: 'A MLSA is a student leader who is passionate about technology and helps others to learn and engage with Microsoft technologies.', link: 'https://mvp.microsoft.com/en-US/studentambassadors/profile/cbb2c34d-09ac-4c4a-a0f2-8c32010b62dd', image: gold },
     { id: 2, name: 'Computer Society of Kirinyaga', link: '#', description: 'To mobilize students from all courses to share, participate and develop technological skills for a dynamic innovative culture in the university.', image: csk },
     { id: 3, name: 'Koding & Kahawa Developers Community', description: 'The aim of the Koding and Kahawa meetups is to nurture, enable and encourage a vibrant, supportive, and inclusive coding community. My role was to collaborate with other students in a web development journey', link: 'https://www.linkedin.com/company/koding-kahawa/', image: kahawa },
   ]

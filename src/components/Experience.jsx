@@ -11,6 +11,17 @@ const Experience = () => {
       <div className="container items-center justify-center flex sm: flex-row flex-wrap ">
         <div className=" w-96 bg-neutral text-neutral-content mr-5 my-5">
           <div className=" items-center text-center">
+            <h2 className="text-red-500 font-semibold text-2xl">Software Engineering Industrial Attachee  at Teach2Give</h2>
+            <p className="text-white my-4 italic">Participated in an intensive, hands-on software engineering training program focused on modern web development technologies and practices. Engaged in collaborative projects, demonstrating strong teamwork and problem-solving abilities.</p>
+            <div className=" justify-end my-4 ">
+              <button className="shadow-lg  py-1.5 px-9 rounded border-none ml-5 text-blue-300 ">
+                May 2024 – update
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className=" w-96 bg-neutral text-neutral-content mr-5 my-5">
+          <div className=" items-center text-center">
             <h2 className="text-yellow-500 font-semibold text-2xl">Co-Founder/Software Engineer Udhamini Scholarships System</h2>
             <p className="text-white my-4 italic">Udhamini Scholarships application is a platform that lets all students get access to a centralized repository of scholarships and apply for them. Main responsibilities include adding new features and
               optimizing Mongo DB aggregation pipelines for  queries.</p>
