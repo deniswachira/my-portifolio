@@ -11,21 +11,23 @@ import azureai5 from '../assets/license/cisco.png';
 import gol from '../assets/license/gol.jpg';
 import dp100 from '../assets/license/dp-100.png';
 import amsql from '../assets/license/mysql.png';
+import ai102 from '../assets/license/ai-102.png';
 
 
 const License = () => {
   const education = [
-    { id: 1, name: 'Microsoft Certified: Azure Data Scientist Associate', link: 'https://learn.microsoft.com/en-us/users/deniskathuri-8153/credentials/2869de862303c286', image: dp100 },
-    { id: 2, name: 'Microsoft Certified: Azure AI Fundamentals', link: 'https://www.credly.com/badges/525975fb-54f4-462b-95f9-10d4df0b5e27/public_url', image: azureai },
-    { id: 3, name: 'Microsoft Certified: Azure Fundamentals', link: 'https://www.credly.com/badges/9f6c7505-1c6a-48f0-b7a0-390cb56e7383/public_url', image: azureai1 },
-    { id: 4, name: 'Microsoft 365 Certified: Fundamentals', link: 'https://www.credly.com/badges/5502b855-1e72-41b4-a923-6423cb9f642b/public_url', image: azureai2 },
-    { id: 5, name: 'Azure Responsible AI Workshop - Coach', link: 'https://www.credly.com/badges/a3fd156d-0670-445b-9a33-c75b94271596/public_url', image: azureresponsibleai },
-    { id: 6, name: 'Azure Database for MySQL - Gold Contributor', link: 'https://www.credly.com/badges/d7017d64-6a68-45e2-a380-1aaa3638b25b/public_url', image: amsql },
-    { id: 7, name: 'Student Trainer', link: 'https://www.credly.com/badges/3bcb26e8-a87d-4134-8cfe-af3c237a7477/public_url', image: azureai3 },
-    { id: 8, name: 'Microsoft Imagine Cup Competition', link: 'https://imaginecup.microsoft.com/en-US/Member/WinnerCertificate?userid=OgkhzsHxkt3MrO9nT4fcUA%253d%253d&compId=cyhPSUkH6JE55Ta5uaAWmw%253d%253d&teamId=NM%252brbL3tzSw6XuTPnSaEMw%253d%253d', image: imagine },
-    { id: 9, name: 'Game of Learners Season 4 Competition', link: 'https://devpost.com/software/meditrack-afyatechs', image: gol },
-    { id: 10, name: 'MLSA Mentee', link: 'https://www.credly.com/badges/be8cd834-013d-48be-bef2-ae5df673d787/public_url', image: azureai4 },
-    { id: 11, name: 'Networking Essentials', link: 'https://www.credly.com/badges/b967ba76-ebbd-4083-a3e6-81a9fd88e755/public_url', image: azureai5 },
+    { id: 1, name: 'Microsoft Certified: Azure AI Engineer Associate', link: 'https://learn.microsoft.com/api/credentials/share/en-us/DenisKathuri-8153/C720C5E027FBB4ED?wt.mc_id=studentamb_252904', image: ai102 },
+    { id: 2, name: 'Microsoft Certified: Azure Data Scientist Associate', link: 'https://learn.microsoft.com/en-us/users/deniskathuri-8153/credentials/2869de862303c286?wt.mc_id=studentamb_252904', image: dp100 },
+    { id: 3, name: 'Microsoft Certified: Azure AI Fundamentals', link: 'https://www.credly.com/badges/525975fb-54f4-462b-95f9-10d4df0b5e27/public_url', image: azureai },
+    { id: 4, name: 'Microsoft Certified: Azure Fundamentals', link: 'https://www.credly.com/badges/9f6c7505-1c6a-48f0-b7a0-390cb56e7383/public_url', image: azureai1 },
+    { id: 5, name: 'Microsoft 365 Certified: Fundamentals', link: 'https://www.credly.com/badges/5502b855-1e72-41b4-a923-6423cb9f642b/public_url', image: azureai2 },
+    { id: 6, name: 'Azure Responsible AI Workshop - Coach', link: 'https://www.credly.com/badges/a3fd156d-0670-445b-9a33-c75b94271596/public_url', image: azureresponsibleai },
+    { id: 7, name: 'Azure Database for MySQL - Gold Contributor', link: 'https://www.credly.com/badges/d7017d64-6a68-45e2-a380-1aaa3638b25b/public_url', image: amsql },
+    { id: 8, name: 'Student Trainer', link: 'https://www.credly.com/badges/3bcb26e8-a87d-4134-8cfe-af3c237a7477/public_url', image: azureai3 },
+    { id: 9, name: 'Microsoft Imagine Cup Competition', link: 'https://imaginecup.microsoft.com/en-US/Member/WinnerCertificate?userid=OgkhzsHxkt3MrO9nT4fcUA%253d%253d&compId=cyhPSUkH6JE55Ta5uaAWmw%253d%253d&teamId=NM%252brbL3tzSw6XuTPnSaEMw%253d%253d', image: imagine },
+    { id: 10, name: 'Game of Learners Season 4 Competition', link: 'https://devpost.com/software/meditrack-afyatechs', image: gol },
+    { id: 11, name: 'MLSA Mentee', link: 'https://www.credly.com/badges/be8cd834-013d-48be-bef2-ae5df673d787/public_url', image: azureai4 },
+    { id: 12, name: 'Networking Essentials', link: 'https://www.credly.com/badges/b967ba76-ebbd-4083-a3e6-81a9fd88e755/public_url', image: azureai5 },
   ]
   return (
     <div className="md:px-10 px-7 my-8" id="license">
