@@ -5,13 +5,14 @@ import twitter from '../assets/socials/twitter.png';
 import linkedin from '../assets/socials/linkedin.png';
 
 const Footer = () => {
+  let date = new Date();
   return (
     <>
       <div className="md:px-10 px-3 mt-15">
         <div className="text-white opacity-50 flex flex-col md:flex-row justify-between items-center my-5">
-          <p>@ Copyright 2023 | Denis Wachira</p>
+          <p>@ Copyright {date.getFullYear()} | Denis Wachira</p>
           <p className="hidden sm:block">Fullstack Developer</p>
-          <p className="hidden sm:block">Azure Cloud Expert</p>
+          <p className="hidden sm:block">Azure AI Engineer & Data Scientist</p>
           <p className="hidden sm:block">Designed by <a className="text-primary" href="https://www.linkedin.com/in/denis-wachira/" target="_blank" rel="noreferrer">
             @deniswachira
           </a></p>
