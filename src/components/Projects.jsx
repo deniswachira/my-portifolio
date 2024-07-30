@@ -6,9 +6,18 @@ import fitness from '../assets/projects/fitness.png';
 import showcase from '../assets/projects/showcase.png';
 import influenza from '../assets/projects/influenza.png';
 import jobit1 from '../assets/projects/jobit1.jpg';
+import rideWave from '../assets/projects/ridewave.png';
 
 const Projects = () => {
   const projects = [
+    {
+      title: "RideWave Renting System",
+      description:
+        "RideWave is vehicle renting system that allows users to rent vehicles for a specific period of time. I developed using React With Typescript and Hono & Postgres for the backend.",
+      photo: rideWave,
+      link: "https://zealous-hill-0e4ae010f.5.azurestaticapps.net/",
+      github: "https://github.com/deniswachira/ridewave-ui",
+    },
     {
       title: "Udhamini Scholarships Web App",
       description:

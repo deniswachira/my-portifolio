@@ -18,7 +18,7 @@ const Home = () => {
                     <h1 className='font-semibold md:text-5xl my-4 text-3xl'>Denis Wachira</h1>
                     <p className='md:w-96'>Fullstack Developer, Azure AI Engineer & Data Scientist.</p>
                     <div className='mt-5'>
-                        <a href="https://1drv.ms/b/s!Ats52FTl3salgrpXWvycpwi-cirQSg?e=0Q1iEp">
+                        <a href="https://drive.google.com/file/d/1oBLp63BgrjsugZ6lLtZ7uISqYzsN7Hx8/view?usp=sharing">
                             <button className='btn transition-all duration-500 shadow-sm bg-primary py-2 px-4 rounded text-white hover:bg-white hover:text-primary'>
                                 Download Resume
                             </button>
@@ -29,7 +29,6 @@ const Home = () => {
                 <div className='order-first md:order-last relative rounded-lg shadow-xl overflow-hidden'>
                     <div className='image-carousel '>
                         <img src={img7} alt="Denis Wachira" loading="lazy" />
-                        {/* <img src={img2} alt="Denis Wachira" loading="lazy" /> */}
                         <img src={img3} alt="Denis Wachira" loading="lazy" />
                         <img src={img4} alt="Denis Wachira" loading="lazy" />
                         <img src={img6} alt="Denis Wachira" loading="lazy" />

@@ -37,8 +37,6 @@ const About = () => {
         }
       </div>
       <hr />
-      {/* services section */}
-      {/* <Services /> */}
     </div>
   );
 };
