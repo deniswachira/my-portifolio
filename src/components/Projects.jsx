@@ -7,6 +7,7 @@ import showcase from '../assets/projects/showcase.png';
 import influenza from '../assets/projects/influenza.png';
 import jobit1 from '../assets/projects/jobit1.jpg';
 import rideWave from '../assets/projects/ridewave.png';
+import datavista from '../assets/projects/datavista.png';
 
 const Projects = () => {
   const projects = [
@@ -17,6 +18,14 @@ const Projects = () => {
       photo: rideWave,
       link: "https://zealous-hill-0e4ae010f.5.azurestaticapps.net/",
       github: "https://github.com/deniswachira/ridewave-ui",
+    },
+    {
+      title: "DataVista Dashboard",
+      description:
+        "DataVista is a dashboard that provides  data visualization of the Kenyan inflation rates , exchange rates and safaricom shares prices. ",
+      photo: datavista,
+      link: "https://wonderful-glacier-0cc79bd10.5.azurestaticapps.net/",
+      github: "https://github.com/deniswachira/data-vista-ui",
     },
     {
       title: "Udhamini Scholarships Web App",
