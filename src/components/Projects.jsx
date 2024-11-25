@@ -8,9 +8,18 @@ import influenza from '../assets/projects/influenza.png';
 import jobit1 from '../assets/projects/jobit1.jpg';
 import rideWave from '../assets/projects/ridewave.png';
 import datavista from '../assets/projects/datavista.png';
+import surge from '../assets/projects/surge.jpg'
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Surge Procurement Limited",
+      description:
+        "I used React with Typescript, Hono & Postgres for backend to develop this law firm academy website affiliated by Gerivia Advocates LLP for training about public procurement",
+      photo: surge,
+      link: "https://www.surgeprocure.co.ke/",
+      github: "https://www.surgeprocure.co.ke/",
+    },
     {
       title: "RideWave Renting System",
       description:
