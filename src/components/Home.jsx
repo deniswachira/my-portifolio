@@ -35,7 +35,7 @@ const Home = () => {
                         <p className='text-red-400'>Azure Data Scientist.</p>
                     </div>
                     <div className='mt-5'>
-                        <a href="https://drive.google.com/file/d/1oBLp63BgrjsugZ6lLtZ7uISqYzsN7Hx8/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1Ad4Z-yGcLsMvCMXvWblt1f37WrF1pqw6/view?usp=sharing">
                             <button className='btn transition-all duration-500 shadow-sm bg-primary py-2 px-4 rounded text-white hover:bg-white hover:text-primary'>
                                 Download Resume
                             </button>
