@@ -9,9 +9,18 @@ import jobit1 from '../assets/projects/jobit1.jpg';
 import rideWave from '../assets/projects/ridewave.png';
 import datavista from '../assets/projects/datavista.png';
 import surge from '../assets/projects/surge.jpg'
+import datarush from '../assets/projects/datarush.png'
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Datarush Luner ERP",
+      description:
+        "I used React with TypeScript and TailwindCSS to develop the frontend application that is bieng used by more than 200 Kenyans daily to purchase Airtime, Data Bundles and Munites at discounted prices from various vendors across the country",
+      photo: datarush,
+      link: "https://datarush.lunar.cyou/chwaa",
+      github: "https://datarush.lunar.cyou/chwaa",
+    },
     {
       title: "Surge Procurement Limited",
       description:
