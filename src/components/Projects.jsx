@@ -14,9 +14,9 @@ import datarush from '../assets/projects/datarush.png'
 const Projects = () => {
   const projects = [
     {
-      title: "Datarush Luner ERP",
+      title: "Datarush Lunar ERP",
       description:
-        "I used React with TypeScript and TailwindCSS to develop the frontend application that is bieng used by more than 200 Kenyans daily to purchase Airtime, Data Bundles and Munites at discounted prices from various vendors across the country",
+        "I used React with TypeScript to develop the frontend application that is bieng used by more than 200 Users daily to purchase Airtime, Data Bundles and Munites at discounted prices from various vendors across the country",
       photo: datarush,
       link: "https://datarush.lunar.cyou/chwaa",
       github: "https://datarush.lunar.cyou/chwaa",
