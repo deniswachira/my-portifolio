@@ -2,7 +2,6 @@ import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import './Home.css';
 import img10 from '../assets/img10.jpg';
-import img2 from '../assets/img2.png';
 import img3 from '../assets/img3.jpg';
 import img4 from '../assets/img4.jpg';
 import img5 from '../assets/img5.jpg';
