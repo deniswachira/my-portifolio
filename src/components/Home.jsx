@@ -30,12 +30,13 @@ const Home = () => {
                         />
                     </h1>
                     <div className='md:w-96 flex'>
+                        <p className='text-orange-400'>Technical Trainer,</p>
                         <p className='text-yellow-400'>Fullstack Developer,</p>
                         <p className='text-blue-400'>Azure AI Engineer,</p>
                         <p className='text-red-400'>Azure Data Scientist.</p>
                     </div>
                     <div className='mt-5'>
-                        <a href="https://drive.google.com/file/d/1zmdrR1BeW4EskxlhBifD1ap3CoDCB70g/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1UDcN79UwFY0gA6bWAC0cnXpOmz8pjmpN/view?usp=sharing">
                             <button className='btn transition-all duration-500 shadow-sm bg-primary py-2 px-4 rounded text-white hover:bg-white hover:text-primary'>
                                 Download Resume
                             </button>

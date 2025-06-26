@@ -13,14 +13,12 @@ const About = () => {
     <div className="md:px-10 px-7 sm:-mt-10" id="about">
       <h1 className="text-primary font-semibold text-3xl mt-5">About me:</h1>
       <p className="my-3 text-white md:w-2/3 leading-[2]">
-        I'm a Computer Science student hailing from Kenya. With a passion
-        for technology and a love for adventure,  bringing a unique perspective to
-        the field. I have a wealth of knowledge and experience in various aspects of
-        technology, including software development, database management, and web
-        programming. I'm a dedicated learner who is always seeking out new challenges
-        and opportunities for growth. When I'm not studying or working on projects, I enjoy
-        exploring the great outdoors and going on adventures. With my combination of technical
-        expertise and adventurous spirit, I'm poised to make a positive impact in the world of technology.
+        At the intersection of technology and academia, my journey as a Software Engineer Trainer at Teach2Give is fueled by an unwavering commitment
+        to innovation and leadership. With a foundation in Computer Science at Kirinyaga University, I leverage skills in TypeScript, React, Azure, and
+        PostgreSQL to drive technological advancements and high availability solutions critical for startups and projects.
+
+        My role transcends technical prowess, embracing community engagement and peer mentorship. This dual path of executive leadership and academic pursuit
+        equips me with a unique blend of practical experience and theoretical knowledge, positioning me to contribute significantly to the evolving digital landscape.
       </p>
       <hr />
       <div className="md:flex my-7 items-center justify-center">

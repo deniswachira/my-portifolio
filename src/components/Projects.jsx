@@ -10,13 +10,22 @@ import rideWave from '../assets/projects/ridewave.png';
 import datavista from '../assets/projects/datavista.png';
 import surge from '../assets/projects/surge.jpg'
 import datarush from '../assets/projects/datarush.png'
+import scof from "../assets/projects/scof.png"
 
 const Projects = () => {
   const projects = [
+     {
+      title: "Scof Services",
+      description:
+        "I used NextJs with TypeScript to develop the frontend application that is bieng used by more than 200 Users daily to access Scof services",
+      photo: scof,
+      link: "https://scofservices.com/",
+      github: "https://scofservices.com/",
+    },
     {
       title: "Datarush Lunar ERP",
       description:
-        "I used React with TypeScript to develop the frontend application that is bieng used by more than 200 Users daily to purchase Airtime, Data Bundles and Munites at discounted prices from various vendors across the country",
+        "A frontend application that is bieng used by more than 200 Users daily to purchase Airtime, Data Bundles and Munites at discounted prices from various vendors across the country",
       photo: datarush,
       link: "https://datarush.lunar.cyou/chwaa",
       github: "https://datarush.lunar.cyou/chwaa",
