@@ -33,7 +33,7 @@ const License = () => {
     <div className="md:px-10 px-7 my-8" id="license">
       <hr />
       <div className="md:flex my-7 items-center justify-center ">
-        <div className="text-primary text-5xl font-bold items-center "> 🎖️ License & Certification 🏅</div>
+        <div className="text-primary text-4xl font-bold items-center "> 🎖️ License & Certification 🏅</div>
       </div>
       <div className='grid md:grid-cols-3 my-8 gap-5 cursor-pointer'>
         {

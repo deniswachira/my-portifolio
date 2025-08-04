@@ -1,4 +1,3 @@
-import React from "react";
 import gold from '../assets/license/gold-mls.png';
 import csk from '../assets/license/csk.png';
 import kahawa from '../assets/license/kahawa.png';
@@ -12,10 +11,10 @@ const Community = () => {
     { id: 3, name: 'Koding & Kahawa Developers Community', description: 'The aim of the Koding and Kahawa meetups is to nurture, enable and encourage a vibrant, supportive, and inclusive coding community. My role was to collaborate with other students in a web development journey', link: 'https://www.linkedin.com/company/koding-kahawa/', image: kahawa },
   ]
   return (
-    <div className="md:px-10 px-7 my-8" id="license">
+    <div className="md:px-10 px-7 my-8" id="community">
       <hr />
       <div className="md:flex my-7 items-center justify-center ">
-        <div className="text-primary text-5xl font-bold items-center "> 🌍 Community Engagement 🧑🏻‍🤝‍🧑🏾</div>
+        <div className="text-primary text-4xl font-bold items-center "> 🌍 Community Engagement 🧑🏻‍🤝‍🧑🏾</div>
       </div>
       <div className='grid md:grid-cols-3 my-8 gap-5 cursor-pointer'>
         {

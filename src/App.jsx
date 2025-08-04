@@ -2,6 +2,7 @@
 import "./App.css";
 import About from "./components/About";
 import Community from "./components/Community";
+import CommunityGallery from "./components/CommunityGallery";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
@@ -23,6 +24,7 @@ function App() {
         <Experience />
         <License />
         <Community />
+        <CommunityGallery/>
         <Contact />
         <Footer />
       </div>

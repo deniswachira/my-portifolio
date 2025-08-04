@@ -45,7 +45,7 @@ const Experience = () => {
     <div className="md:px-10 px-7 my-8" id="experience">
       <hr />
       <div className="md:flex my-7 items-center justify-center">
-        <div className="text-primary text-5xl font-bold items-center text-center">
+        <div className="text-primary text-4xl font-bold items-center text-center">
           🧑‍💻 Experience 🧑‍💻
         </div>
       </div>
