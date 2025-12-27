@@ -10,8 +10,12 @@ import img8 from '../assets/img8.jpg';
 import img9 from '../assets/img9.jpg';
 import img11 from '../assets/img11.jpg';
 import img12 from '../assets/img12.jpg';
+import img13 from '../assets/img13.jpg';
+// import img14 from '../assets/img14.jpg';
+import img15 from '../assets/img15.jpg';
+import img16 from '../assets/img16.jpg';
 
-const images = [img10, img9,img11, img12, img8,  img7, img3, img4, img6, img5];
+const images = [img16,img13,img15,img10, img9,img11, img12, img8,  img7, img3, img4, img6, img5];
 
 const Home = () => {
     return (

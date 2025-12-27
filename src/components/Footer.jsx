@@ -28,7 +28,7 @@ const Footer = () => {
         <a className="mx-2" href="https://www.linkedin.com/in/denis-wachira/" target="_blank" rel="noreferrer">
           <img src={linkedin} alt="" width={20} />
         </a>
-        <a className="" href="https://twitter.com/deniswachira_" target="_blank" rel="noreferrer">
+        <a className="" href="https://x.com/deniswachira_" target="_blank" rel="noreferrer">
           <img src={twitter} alt="" width={20} />
         </a>
         <a className="mx-2" href="https://web.facebook.com/mr.deniswachira/" target="_blank" rel="noreferrer">
