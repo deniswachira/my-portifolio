@@ -1,16 +1,14 @@
-[[plugins]]
-  package = "@netlify/plugin-functions"
-
 [build]
-  functions = "netlify/functions"
+  publish = "dist"
+  command = "pnpm build"
 
-# Form handling
+# SPA redirects - redirect all routes to index.html for React Router
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Form notifications
+# Build optimization
 [build.processing.css]
   bundle = true
   minify = true
