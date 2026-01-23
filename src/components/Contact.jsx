@@ -13,13 +13,6 @@ const Contact = () => {
     error: null
   });
 
-  // Encode form data for Netlify
-  const encode = (data) => {
-    return Object.keys(data)
-      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -27,25 +20,26 @@ const Contact = () => {
 
     const form = e.target;
     const formData = new FormData(form);
-    const data = {};
-
-    // Convert FormData to regular object
-    for (let [key, value] of formData.entries()) {
-      data[key] = value;
-    }
 
     try {
-      await fetch("/", {
+      // Formspree endpoint - replace with your actual form ID after setup
+      const response = await fetch("https://formspree.io/f/xkojbzoq", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "portfolio-contact", ...data })
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
       });
 
-      setFormState({ isSubmitting: false, isSubmitted: true, error: null });
-      form.reset();
+      if (response.ok) {
+        setFormState({ isSubmitting: false, isSubmitted: true, error: null });
+        form.reset();
 
-      // Track successful form submission
-      trackContactSubmission();
+        // Track successful form submission
+        trackContactSubmission();
+      } else {
+        throw new Error('Form submission failed');
+      }
 
     } catch (error) {
       console.error('Form submission error:', error);
@@ -117,24 +111,18 @@ const Contact = () => {
         <div className="md:w-1/2">
           <p className="mt-16 text-white text-2xl mb-6">Contact me, let's make magic together</p>
 
-          {/* Netlify Form */}
+          {/* Formspree Form */}
           <form
-            name="portfolio-contact"
+            action="https://formspree.io/f/xkojbzoq"
             method="POST"
-            data-netlify="true"
             onSubmit={handleSubmit}
             className="space-y-4"
           >
-            {/* Hidden field for Netlify */}
-            <input type="hidden" name="form-name" value="portfolio-contact" />
-
-            {/* Custom email subject line - will override default [Netlify] prefix */}
-            <input
-              type="hidden"
-              name="subject"
-              value="New Portfolio Contact from %{name} - Denis Wachira Portfolio"
-              data-remove-prefix
-            />
+            {/* Email field for Formspree to send to */}
+            <input type="hidden" name="_to" value="deniswachira77@gmail.com" />
+            <input type="hidden" name="_subject" value="New Portfolio Contact from Denis Wachira's Website" />
+            <input type="hidden" name="_next" value="https://yoursite.com/thank-you" />
+            <input type="hidden" name="_captcha" value="false" />
 
             <div>
               <input
