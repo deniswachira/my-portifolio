@@ -71,6 +71,9 @@ export const useAnalyticsDashboard = () => {
 
     useEffect(() => {
         const handleKeyPress = (e) => {
+            // Check if e.key exists and is a string
+            if (!e.key || typeof e.key !== 'string') return;
+
             const targetSequence = ['a', 'n', 'a', 'l', 'y', 't', 'i', 'c', 's']; // "analytics"
             const newSequence = [...keySequence, e.key.toLowerCase()].slice(-targetSequence.length);
 

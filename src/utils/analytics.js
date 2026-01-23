@@ -14,9 +14,9 @@ export const initGA = () => {
                 send_page_view: false // We'll manually send page views
             }
         });
-        console.log('Google Analytics initialized');
+        // console.log('Google Analytics initialized');
     } else {
-        console.warn('Google Analytics not initialized: Please add your GA4 Measurement ID');
+        // console.warn('Google Analytics not initialized: Please add your GA4 Measurement ID');
     }
 };
 
@@ -28,7 +28,7 @@ export const trackPageView = (page_title, page_location) => {
             page_title,
             page_location: page_location || window.location.pathname + window.location.search
         });
-        console.log(`Page view tracked: ${page_title}`);
+        // console.log(`Page view tracked: ${page_title}`);
     }
 };
 
@@ -41,7 +41,7 @@ export const trackEvent = (action, category, label, value) => {
             label,
             value
         });
-        console.log(`Event tracked: ${action} - ${category} - ${label}`);
+        // console.log(`Event tracked: ${action} - ${category} - ${label}`);
     }
 };
 
