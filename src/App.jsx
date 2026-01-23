@@ -1,4 +1,5 @@
 
+import { useEffect } from "react";
 import "./App.css";
 import About from "./components/About";
 import Community from "./components/Community";
@@ -10,9 +11,21 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import License from "./components/License";
 import Projects from "./components/Projects";
+import AnalyticsDashboard, { useAnalyticsDashboard } from "./components/AnalyticsDashboard";
+import { initGA } from "./utils/analytics";
+import { usePageTracking } from "./hooks/usePageTracking";
 
 function App() {
+  // Initialize Google Analytics
+  useEffect(() => {
+    initGA();
+  }, []);
 
+  // Track page views and engagement
+  usePageTracking("Denis Wachira - Portfolio");
+
+  // Analytics dashboard (shows when typing "analytics")
+  const { showDashboard } = useAnalyticsDashboard();
 
   return (
     <>
@@ -24,10 +37,13 @@ function App() {
         <Experience />
         <License />
         <Community />
-        <CommunityGallery/>
+        <CommunityGallery />
         <Contact />
         <Footer />
       </div>
+
+      {/* Hidden analytics dashboard */}
+      <AnalyticsDashboard isVisible={showDashboard} />
     </>
   );
 }
