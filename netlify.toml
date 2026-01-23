@@ -7,12 +7,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
-# Build optimization
-[build.processing.css]
-  bundle = true
-  minify = true
-
-[build.processing.js]
-  bundle = true
-  minify = true

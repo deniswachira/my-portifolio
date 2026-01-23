@@ -122,14 +122,19 @@ const Contact = () => {
             name="portfolio-contact"
             method="POST"
             data-netlify="true"
-            data-netlify-recaptcha="true"
-            action="/contact-success"
             onSubmit={handleSubmit}
             className="space-y-4"
           >
             {/* Hidden field for Netlify */}
             <input type="hidden" name="form-name" value="portfolio-contact" />
-            <input type="hidden" name="subject" value="New Portfolio Contact from ${name}" />
+
+            {/* Custom email subject line - will override default [Netlify] prefix */}
+            <input
+              type="hidden"
+              name="subject"
+              value="New Portfolio Contact from %{name} - Denis Wachira Portfolio"
+              data-remove-prefix
+            />
 
             <div>
               <input
