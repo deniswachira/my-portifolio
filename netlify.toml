@@ -1,0 +1,20 @@
+[[plugins]]
+  package = "@netlify/plugin-functions"
+
+[build]
+  functions = "netlify/functions"
+
+# Form handling
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Form notifications
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Denis Wachira</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { 
+            background: linear-gradient(135deg, #1e3a8a, #3730a3, #7c3aed);
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center">
+    <div class="text-center text-white p-8">
+        <div class="text-6xl mb-4">✅</div>
+        <h1 class="text-4xl font-bold mb-4">Thank You!</h1>
+        <p class="text-xl mb-6 opacity-90">Your message has been sent successfully.</p>
+        <p class="text-lg mb-8 opacity-75">I'll get back to you as soon as possible!</p>
+        
+        <a href="/" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300">
+            ← Back to Portfolio
+        </a>
+        
+        <div class="mt-8 text-sm opacity-60">
+            <p>Expected response time: Within 24 hours</p>
+        </div>
+    </div>
+    
+    <script>
+        // Auto-redirect after 5 seconds
+        setTimeout(() => {
+            window.location.href = '/';
+        }, 5000);
+    </script>
+</body>
+</html>
