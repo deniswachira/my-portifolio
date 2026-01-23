@@ -3,41 +3,50 @@ import udhamini from '../assets/projects/udhamini1.png';
 import covid from '../assets/projects/covid19tracker.png';
 import modern from '../assets/projects/modern-real-estate.png';
 import fitness from '../assets/projects/fitness.png';
-import showcase from '../assets/projects/showcase.png';
-import influenza from '../assets/projects/influenza.png';
-import jobit1 from '../assets/projects/jobit1.jpg';
+// import showcase from '../assets/projects/showcase.png';
+// import influenza from '../assets/projects/influenza.png';
+// import jobit1 from '../assets/projects/jobit1.jpg';
 import rideWave from '../assets/projects/ridewave.png';
 import datavista from '../assets/projects/datavista.png';
-import surge from '../assets/projects/surge.jpg'
+import taxhub from "../assets/projects/taxhub.png";
+// import surge from '../assets/projects/surge.jpg'
 import datarush from '../assets/projects/datarush.png'
 import scof from "../assets/projects/scof.png"
 
 const Projects = () => {
   const projects = [
-     {
-      title: "Scof Services",
+    {
+      title: "Tax Hub Kenya",
       description:
-        "I used NextJs with TypeScript to develop the frontend application that is bieng used by more than 200 Users daily to access Scof services",
-      photo: scof,
-      link: "https://scofservices.com/",
-      github: "https://scofservices.com/",
+        "Built a web platform consuming the GavaConnect API to provide access to KRA PIN checks, nil returns, PIN reg, tax obligations, and IT exemption information via a responsive interface.",
+      photo: taxhub,
+      link: "https://taxhubkenya.netlify.app/",
+      github: "https://taxhubkenya.netlify.app/",
     },
     {
       title: "Datarush Lunar ERP",
       description:
         "A frontend application that is bieng used by more than 200 Users daily to purchase Airtime, Data Bundles and Munites at discounted prices from various vendors across the country",
       photo: datarush,
-      link: "https://datarush.lunar.cyou/chwaa",
-      github: "https://datarush.lunar.cyou/chwaa",
+      link: "https://datarush.lunar.cyou/lunartech",
+      github: "https://datarush.lunar.cyou/lunartech",
     },
     {
-      title: "Surge Procurement Limited",
+      title: "Scof Services",
       description:
-        "I used React with Typescript, Hono & Postgres for backend to develop this law firm academy website affiliated by Gerivia Advocates LLP for training about public procurement",
-      photo: surge,
-      link: "https://www.surgeprocure.co.ke/",
-      github: "https://www.surgeprocure.co.ke/",
+        "I used NextJs with TypeScript to develop the frontend application that is bieng used by more than 200 Users daily to access Scof services",
+      photo: scof,
+      link: "https://scofservices-beta.vercel.app/",
+      github: "https://scofservices-beta.vercel.app/",
     },
+    // {
+    //   title: "Surge Procurement Limited",
+    //   description:
+    //     "I used React with Typescript, Hono & Postgres for backend to develop this law firm academy website affiliated by Gerivia Advocates LLP for training about public procurement",
+    //   photo: surge,
+    //   link: "https://www.surgeprocure.co.ke/",
+    //   github: "https://www.surgeprocure.co.ke/",
+    // },
     {
       title: "RideWave Renting System",
       description:
@@ -86,30 +95,30 @@ const Projects = () => {
       link: "https://fit-club-three.vercel.app/",
       github: "https://github.com/deniswachira/FitClub",
     },
-    {
-      title: "Influenza and Covid-19 Connector",
-      description:
-        "It provides real-time disease-related statistics accumulated worldwide.",
-      photo: influenza,
-      link: "https://learn.microsoft.com/en-us/connectors/influenzandcovid19ip/",
-      github: "https://learn.microsoft.com/en-us/connectors/influenzandcovid19ip/",
-    },
-    {
-      title: "Jobit Mobile App",
-      description:
-        "A Job Searching mobile App. Built with React Native and Rapid APIs.",
-      photo: jobit1,
-      link: "https://github.com/deniswachira/Jobit",
-      github: "https://github.com/deniswachira/Jobit",
-    },
-    {
-      title: "NFTs Landing Page",
-      description:
-        "A Landing Page for NFT marketplace for android app . Built with ReactJs fully responsive.",
-      photo: showcase,
-      link: "https://nfts-marketplace-showcase.vercel.app/",
-      github: "https://github.com/deniswachira/NFTs_MarketPlace_Showcase",
-    },
+    // {
+    //   title: "Influenza and Covid-19 Connector",
+    //   description:
+    //     "It provides real-time disease-related statistics accumulated worldwide.",
+    //   photo: influenza,
+    //   link: "https://learn.microsoft.com/en-us/connectors/influenzandcovid19ip/",
+    //   github: "https://learn.microsoft.com/en-us/connectors/influenzandcovid19ip/",
+    // },
+    // {
+    //   title: "Jobit Mobile App",
+    //   description:
+    //     "A Job Searching mobile App. Built with React Native and Rapid APIs.",
+    //   photo: jobit1,
+    //   link: "https://github.com/deniswachira/Jobit",
+    //   github: "https://github.com/deniswachira/Jobit",
+    // },
+    // {
+    //   title: "NFTs Landing Page",
+    //   description:
+    //     "A Landing Page for NFT marketplace for android app . Built with ReactJs fully responsive.",
+    //   photo: showcase,
+    //   link: "https://nfts-marketplace-showcase.vercel.app/",
+    //   github: "https://github.com/deniswachira/NFTs_MarketPlace_Showcase",
+    // },
   ];
 
   return (
