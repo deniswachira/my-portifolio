@@ -7,21 +7,30 @@ import fitness from '../assets/projects/fitness.png';
 // import influenza from '../assets/projects/influenza.png';
 // import jobit1 from '../assets/projects/jobit1.jpg';
 import rideWave from '../assets/projects/ridewave.png';
-import datavista from '../assets/projects/datavista.png';
+// import datavista from '../assets/projects/datavista.png';
 import taxhub from "../assets/projects/taxhub.png";
 // import surge from '../assets/projects/surge.jpg'
 import datarush from '../assets/projects/datarush.png'
 import scof from "../assets/projects/scof.png"
+import textwave from "../assets/projects/textwave.png"
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Text Wave Bulk SMS",
+      description:
+        "A full-stack bulk SMS platform with Next.js, Hono API, and PostgreSQL. Published official JavaScript SDK to npm with TS support. Enabled businesses to send thousands of SMS messages instantly via REST API",
+      photo: textwave,
+      link: "https://textwave.co.ke/",
+      github: "https://textwave.co.ke/",
+    },
     {
       title: "Tax Hub Kenya",
       description:
         "Built a web platform consuming the GavaConnect API to provide access to KRA PIN checks, nil returns, PIN reg, tax obligations, and IT exemption information via a responsive interface.",
       photo: taxhub,
-      link: "https://taxhubkenya.netlify.app/",
-      github: "https://taxhubkenya.netlify.app/",
+      link: "https://taxhubke.com/",
+      github: "https://taxhubke.com/",
     },
     {
       title: "Datarush Lunar ERP",
@@ -55,14 +64,14 @@ const Projects = () => {
       link: "https://zealous-hill-0e4ae010f.5.azurestaticapps.net/",
       github: "https://github.com/deniswachira/ridewave-ui",
     },
-    {
-      title: "DataVista Dashboard",
-      description:
-        "DataVista is a dashboard that provides  data visualization of the Kenyan inflation rates , exchange rates and safaricom shares prices. ",
-      photo: datavista,
-      link: "https://wonderful-glacier-0cc79bd10.5.azurestaticapps.net/",
-      github: "https://github.com/deniswachira/data-vista-ui",
-    },
+    // {
+    //   title: "DataVista Dashboard",
+    //   description:
+    //     "DataVista is a dashboard that provides  data visualization of the Kenyan inflation rates , exchange rates and safaricom shares prices. ",
+    //   photo: datavista,
+    //   link: "https://wonderful-glacier-0cc79bd10.5.azurestaticapps.net/",
+    //   github: "https://github.com/deniswachira/data-vista-ui",
+    // },
     {
       title: "Udhamini Scholarships Web App",
       description:
