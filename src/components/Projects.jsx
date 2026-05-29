@@ -37,8 +37,8 @@ const Projects = () => {
       description:
         "A frontend application that is bieng used by more than 200 Users daily to purchase Airtime, Data Bundles and Munites at discounted prices from various vendors across the country",
       photo: datarush,
-      link: "https://datarush.lunar.cyou/lunartech",
-      github: "https://datarush.lunar.cyou/lunartech",
+      link: "https://datarush.lunar.cyou/xyra",
+      github: "https://datarush.lunar.cyou/xyra",
     },
     {
       title: "Scof Services",

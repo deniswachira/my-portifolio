@@ -41,14 +41,14 @@ const Home = () => {
                         />
                     </h1>
                     <div className="flex flex-wrap gap-2 mt-6 w-full justify-center text-center">
+                        <span className="bg-yellow-500 text-sm px-3 py-1 rounded-full font-medium">Software Engineer</span>
                         <span className="bg-orange-500 text-sm px-3 py-1 rounded-full font-medium">Technical Trainer</span>
-                        <span className="bg-yellow-500 text-sm px-3 py-1 rounded-full font-medium">Fullstack Developer</span>
                         <span className="bg-blue-500 text-sm px-3 py-1 rounded-full font-medium">Azure AI Engineer</span>
                         {/* <span className="bg-red-500 text-sm px-3 py-1 rounded-full font-medium">Azure Data Scientist</span> */}
                     </div>
                     <div className="mt-8">
                         <a
-                            href="https://drive.google.com/file/d/1POSVCE0wCIxJCeRv49ihTazKK_j9Xmyj/view?usp=sharing"
+                            href="https://drive.google.com/file/d/10YeujK911RgDPQSPtiesq70OJ8vhIGcp/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

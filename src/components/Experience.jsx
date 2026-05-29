@@ -1,33 +1,46 @@
 
-import { FaChalkboardTeacher, FaUsers, FaIndustry, } from "react-icons/fa";
+import { FaChalkboardTeacher, FaIndustry, FaBriefcase } from "react-icons/fa";
 
 const experiences = [
+  {
+    title: "Software Engineer",
+    company: "Britam — Nairobi, Kenya",
+    icon: <FaBriefcase className="text-4xl text-blue-400 mb-2" />,
+    color: "border-blue-400",
+    accent: "from-blue-500/20 to-transparent",
+    date: "February 2026 - Present",
+    highlights: [
+      "Delivering 4 enterprise projects across Betalab, GI & BAM units.",
+      "Led in-house rebuild of 2 vendor-dependent systems, cutting licensing costs.",
+      "Building full-stack features within cross-functional Agile squads.",
+    ],
+    tech: ["React", "ASP.NET", "Flutter", "REST APIs"],
+  },
   {
     title: "Software Development Technical Trainer",
     company: "Teach2Give",
     icon: <FaChalkboardTeacher className="text-4xl text-orange-400 mb-2" />,
     color: "border-orange-400",
-    date: "May 2024 – Present",
-    description:
-      "As a Software Development Technical Trainer at Teach2Give, I focus on equipping students with the knowledge and skills necessary to succeed in the tech world. My responsibilities include delivering practical instruction and offering hands-on guidance to help learners grasp key concepts in software development.",
+    accent: "from-orange-500/20 to-transparent",
+    date: "April 2025 - January 2026",
+    highlights: [
+      "Train students in modern software development practices.",
+      "Deliver hands-on instruction and mentorship on real-world projects.",
+    ],
+    tech: ["JavaScript", "React", "Node.js", "Git"],
   },
   {
     title: "Software Engineering Industrial Attachee",
     company: "Teach2Give",
     icon: <FaIndustry className="text-4xl text-red-400 mb-2" />,
     color: "border-red-400",
-    date: "May 2024 – July 2024",
-    description:
-      "Participated in an intensive, hands-on software engineering training program focused on modern web development technologies and practices. Engaged in collaborative projects, demonstrating strong teamwork and problem-solving abilities.",
-  },
-  {
-    title: "Community Co-Lead",
-    company: "Kenya Data Platform User Group",
-    icon: <FaUsers className="text-4xl text-yellow-400 mb-2" />,
-    color: "border-yellow-400",
-    date: "October 2022 – Present",
-    description:
-      "I help drive learning and engagement around data and AI technologies. Our focus lies in Data Platforms, while also exploring Developer Technologies infused with AI advancements. I actively contribute to organizing events, sharing insights, and creating technical course content tailored for our growing audience.",
+    accent: "from-red-500/20 to-transparent",
+    date: "May 2024 - July 2024",
+    highlights: [
+      "Completed intensive training in modern web development.",
+      "Collaborated on team projects demonstrating problem-solving skills.",
+    ],
+    tech: ["HTML", "CSS", "JavaScript", "React"],
   },
   // {
   //   title: "Software Engineering Industrial Attachee",
@@ -53,15 +66,35 @@ const Experience = () => {
         {experiences.map((exp, idx) => (
           <div
             key={idx}
-            className={`w-80 bg-neutral text-neutral-content rounded-xl shadow-xl border-t-4 ${exp.color} transition-transform hover:-translate-y-2 hover:shadow-2xl duration-300 flex flex-col items-center p-6`}
+            className={`relative w-80 bg-neutral text-neutral-content rounded-2xl shadow-xl border-t-4 ${exp.color} overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-2xl duration-300 flex flex-col p-6`}
           >
-            {exp.icon}
-            <h2 className="font-semibold text-xl mt-2 mb-1 text-orange-500">{exp.title}</h2>
-            <h3 className="text-blue-300 font-medium mb-2 uppercase">{exp.company}</h3>
-            <p className="text-white text-sm italic mb-4">{exp.description}</p>
-            <span className="bg-blue-900/30 text-blue-200 px-4 py-1 rounded-full text-xs font-semibold">
-              {exp.date}
-            </span>
+            <div className={`absolute inset-0 bg-gradient-to-b ${exp.accent} pointer-events-none`} />
+            <div className="relative flex flex-col flex-1">
+              <div className="flex items-center justify-center">{exp.icon}</div>
+              <h2 className="font-semibold text-lg text-center mt-2 text-orange-500">{exp.title}</h2>
+              <h3 className="text-blue-300 font-medium text-sm text-center mb-2 uppercase tracking-wide">{exp.company}</h3>
+              <span className="self-center bg-blue-900/40 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold mb-4">
+                {exp.date}
+              </span>
+              <ul className="text-white/90 text-sm space-y-1.5 mb-4 flex-1">
+                {exp.highlights.map((h, i) => (
+                  <li key={i} className="flex gap-2">
+                    <span className="text-orange-400 mt-1">▸</span>
+                    <span>{h}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="flex flex-wrap gap-1.5 mt-auto pt-3 border-t border-white/10">
+                {exp.tech.map((t, i) => (
+                  <span
+                    key={i}
+                    className="text-[10px] font-medium bg-white/5 text-blue-200 px-2 py-0.5 rounded-md border border-white/10"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         ))}
       </div>

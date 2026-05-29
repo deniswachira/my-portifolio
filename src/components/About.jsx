@@ -13,12 +13,17 @@ const About = () => {
     <div className="md:px-10 px-7 sm:-mt-10" id="about">
       <h1 className="text-primary font-semibold text-3xl mt-5">About me:</h1>
       <p className="my-3 text-white md:w-2/3 leading-[2]">
-        At the intersection of technology and academia, my journey as a Software Engineer Trainer at Teach2Give is fueled by an unwavering commitment
-        to innovation and leadership. With a foundation in Computer Science at Kirinyaga University, I leverage skills in TypeScript, React, Azure, and
-        PostgreSQL to drive technological advancements and high availability solutions critical for startups and projects.
+        I'm a Software Engineer passionate about building scalable, reliable, and impactful digital solutions.
+    With experience across frontend, backend, and cloud technologies, I specialize in developing modern
+    web applications using React, Next.js, TypeScript, Node.js, ASP.NET, and Azure.
 
-        My role transcends technical prowess, embracing community engagement and peer mentorship. This dual path of executive leadership and academic pursuit
-        equips me with a unique blend of practical experience and theoretical knowledge, positioning me to contribute significantly to the evolving digital landscape.
+    Currently, I contribute to enterprise software development at Britam, where I work on designing and
+    delivering internal business systems, APIs, and cross-platform applications within Agile teams.
+    I've also built and launched products including bulk SMS platforms, fintech solutions, and high-traffic
+    web applications serving real businesses and users.
+
+    Beyond engineering, I enjoy mentoring developers, contributing to tech communities, and continuously
+    exploring emerging technologies that solve real-world problems through software.
       </p>
       <hr />
       <div className="md:flex my-7 items-center justify-center">
