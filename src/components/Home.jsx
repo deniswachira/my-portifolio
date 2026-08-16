@@ -48,7 +48,7 @@ const Home = () => {
                     </div>
                     <div className="mt-8">
                         <a
-                            href="https://drive.google.com/file/d/10YeujK911RgDPQSPtiesq70OJ8vhIGcp/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1JIaU9mDlcDw2Zic2TEEFf9zIIZpIjAxF/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
